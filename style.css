@@ -1,0 +1,905 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(27, 35, 22, 1)
+    ;
+    
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background: url('image/background.jpg') ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    
+}
+
+/* ------------------------------ nav par ----------------------- */
+nav{
+
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container nav ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.container nav ul li a{
+    display: flex;
+    color: #fff;
+    margin: 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    align-items: center;
+    transition-duration: 0.3s ; 
+}
+.container nav ul #plantsType i{
+    font-size: 13px;
+    margin: 5px;
+
+}
+.container nav .logo{
+    display: flex;
+    align-items: center;
+}
+.container nav .logo .img-logo{
+    width: 70px;
+    height: 70px;
+    background: url('images/plant\ 1.png');
+    background-size: cover;
+    background-position: center;
+}
+.container nav .logo p{
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+.container nav .icons{
+    padding: 5px;
+}
+
+.container nav .icons i{
+    padding: 5px;
+    font-size: 16px;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/* ---------------- psoude nav par -----------------------  */
+
+.container nav ul li a:hover {
+    text-shadow: 0 0 5px white;
+}
+.container nav .icons i:hover , .icons i:active {
+    background: white;
+    color: #111;
+}
+
+/* ------------------------------------------------------------- */
+/* --------------------------- main ---------------------------- */
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    width: 90%;
+    margin-top: 50px;
+}
+
+main .pragraphe h1 {
+    font-size: 90px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+main .pragraphe p {
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 700px;
+    margin-left: 10px;
+}
+main .pragraphe .irt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+main .pragraphe button {
+    padding: 5px 10px 10px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    margin: 20px 20px 20px 5px  ;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition-duration: 0.3s ; 
+}
+main .pragraphe .liveDemo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .pragraphe .liveDemo i{
+    font-size: 20px;
+    padding: 15px  ;
+    padding-left:17px  ;
+    padding-right:17px  ;
+    border-radius: 40px;
+    border: white solid 1px;
+    cursor: pointer;
+}
+
+main .plant1 {
+    background-color: rgba(255, 255, 255, 0.036);
+    position: relative;
+    top: 100px;
+    margin-right: 50px;
+    width: 300px ;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(1px);
+    border-radius: 50px;
+    border: 1px solid #999;
+}
+
+main .plant1 img {
+    width: 500px;
+    position: absolute;
+    top: -150px;
+}
+
+main .plant1 .small {
+    width: 80%;
+    font-size: 16px;
+    margin-top: 150px;
+    text-transform: capitalize;
+
+}
+main .plant1  div {
+    margin: 5px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+main .plant1  div .big{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-right: 50px;
+}
+main .plant1 .cass2  button{
+    width: 130px;
+    padding: 5px 5px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border: solid 1px white;
+    border-radius: 30px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s ;
+    z-index: 1000;
+}
+/* ---------------------------- main psuode ---------------------------  */
+
+
+main .pragraphe button:hover,
+main .plant1 .cass2  button:hover
+,.ourTrendyPlants .content .typing button:hover 
+,.ourTrendyPlants .content .typing2 button:hover,
+.OurBesto2 .content .text .footer .expriora:hover
+ {
+    background-color: white;
+    color: #111;
+}
+
+/* ------------------------------------------------------------------------- */
+/* ------------------------------section 1 -------------------------------- */
+
+
+.section1 {
+    background-color: rgba(255, 255, 255, 0.036);
+    backdrop-filter: blur(5px);
+    width: 480.63px;
+    height: 246.61px;
+    align-self: flex-start;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 30px;
+    padding: 10px;
+    border: 1px solid #999;
+}
+.section1 div {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.section1 div .sectionImg{
+    margin-left: 10px ;
+    margin-right: 10px ;
+    width: 80px ;
+    height: 80px ;
+    border-radius: 50%;
+    background: url('image/user.webp');
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+}
+.section1 div p {
+    position: relative;
+    left: 10px;
+    top: -10px;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+.section1 .stars div {
+    position: relative;
+    top: 10px;
+    left: -90px;
+}
+.section1 .stars div i{
+    color: gold;
+    margin-right: 3px ;
+}
+
+.section1 p {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 16px ;
+    color: white;
+    text-transform: capitalize;
+}
+/* ------------------------------------------------------------------------- */
+/* ------------------------------our Trendy Plants -------------------------------- */
+.ourTrendyPlants{
+    
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px ;
+    margin-bottom: 50px;
+}
+.ourTrendyPlants .tilte {
+    position: relative;
+    background-color:rgba(255, 255, 255, 0.036) ;
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 50px;
+    border-radius: 10px;
+}
+.ourTrendyPlants .tilte::before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -8px;
+    bottom: -8px;
+    border-left: solid rgb(0, 183, 0) 10px;
+    border-bottom: solid rgb(0, 183, 0) 10px;
+    border-radius: 0 0 0 15px;
+}
+.ourTrendyPlants .tilte::after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    border-right: solid rgb(0, 183, 0) 10px;
+    border-top: solid rgb(0, 183, 0) 10px;
+    border-radius: 0 15px 0 0;
+}
+
+.ourTrendyPlants .content{
+    position: relative;
+    border-radius: 100px;
+    border: solid #999 2px; 
+    width: 100%;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.036);
+    backdrop-filter: blur(15px);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.ourTrendyPlants .content div{
+    width: 50%;
+}
+.ourTrendyPlants .content div img {
+    width: 550px;
+    position: relative;
+    top: -20px ;
+}
+
+.ourTrendyPlants .content .typing ,
+.ourTrendyPlants .content .typing2
+{
+    align-self: flex-start;
+}
+.ourTrendyPlants .content .typing h2 ,
+.ourTrendyPlants .content .typing2 h2 
+{
+    margin-top: 70px ;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.ourTrendyPlants .content .typing p,
+.ourTrendyPlants .content .typing2 p
+ {
+    margin: 30px  ;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.ourTrendyPlants .content .typing span,
+.ourTrendyPlants .content .typing2 span
+ {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.ourTrendyPlants .content .typing button
+,.ourTrendyPlants .content .typing2 button,
+.OurBesto2 .content .text .footer .expriora
+ {
+    padding: 5px 10px 10px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition-duration: 0.3s ; 
+}
+.ourTrendyPlants .content .typing  i ,
+.ourTrendyPlants .content .typing2  i  {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px #999;
+    cursor: pointer;
+}
+.ourTrendyPlants .content .typing2 h2,
+.ourTrendyPlants .content .typing2 p ,
+.ourTrendyPlants .content .typing2 span ,
+.ourTrendyPlants .content .typing2 button 
+{
+    margin-left: 120px;
+}
+.ourTrendyPlants .content .typing2{
+    width: 90%;
+}
+/* --------------------------------------------------------------------------------- */
+/* ------------------------------------------ ourOfSelling ------------------------ */
+.ourOfSelling ,
+.CustomerReview{
+    position: relative;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: auto ;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.ourOfSelling .head{
+    text-shadow:  0 10px 10px rgb(45, 54, 40);
+    position: relative;
+    padding: 10px 20px ;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 250px  ;
+    margin-top: 50px  ;
+    border-radius: 10px;
+}
+.ourOfSelling .head::before{
+    content: '';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: -8px;
+    bottom: -8px;
+    border-left: solid rgb(0, 183, 0) 10px;
+    border-bottom: solid rgb(0, 183, 0) 10px;
+    border-radius: 0 0 0 15px;
+}
+
+.ourOfSelling .head::after{
+    content: '';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    border-right: solid rgb(0, 183, 0) 10px;
+    border-top: solid rgb(0, 183, 0) 10px;
+    border-radius: 0 15px 0 0;
+}
+.ourOfSelling .cards {
+    width:fit-content;
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 30px ;
+   row-gap:200px;
+
+}
+.ourOfSelling .cards  .card1{
+    background-color: rgba(255, 255, 255, 0.05);
+    position: relative;
+    width: 400px;
+    height: 530px;
+    border-radius: 70px;
+    padding: 10px;
+    border: 1px #999 solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 20px 30px;
+}
+.ourOfSelling .cards .card1::before{
+    content: '';
+    top: -15px;
+    left: 90px;
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    background-color: rgba(27, 35, 22, 1);
+    border-bottom:1px #999 solid ;
+    rotate: 15deg;
+}
+.ourOfSelling .cards .card1::after{
+    content: '';
+    top: -15px;
+    right: 90px;
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    background-color: rgba(27, 35, 22, 1);
+    border-bottom:1px #999 solid ;
+    rotate: -15deg;
+}
+
+.ourOfSelling .cards  .card1 img {
+    z-index: 100;
+    position: absolute;
+    top: -200px;
+    width: 500px;
+}
+.ourOfSelling .cards  .card1 .text {
+    align-self: flex-end;
+    height: 50%;
+    margin-left: 20px;
+}
+.ourOfSelling .cards  .card1 .text h2{
+    font-size: 32px ;
+    text-transform: capitalize;
+    margin-bottom: 20px ;
+}
+.ourOfSelling .cards  .card1 .text p{
+    font-size: 18px ;
+    text-transform: capitalize;
+    margin-bottom: 50px ;
+}
+.ourOfSelling .cards  .card1 .text div {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.ourOfSelling .cards  .card1 .text div p{
+    font-size: 32px ;
+    text-transform: capitalize;
+}
+.ourOfSelling .cards  .card1 .text div i{
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 10px;
+    border: solid 2px #999;
+    position: absolute;
+    top: 5px;
+    left: 150px  ;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------- OurBesto2 ------------------------------- */
+
+.OurBesto2{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+}
+.OurBesto2 .head,
+.CustomerReview .head
+ {
+text-shadow:  0 10px 10px rgb(45, 54, 40);
+    position: relative;
+    padding: 10px 20px ;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 100px  ;
+    margin-top: 50px  ;
+    border-radius: 10px;
+}
+.OurBesto2 .head::before,
+.CustomerReview .head::before
+{
+    content: '';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: -8px;
+    bottom: -8px;
+    border-left: solid rgb(0, 183, 0) 10px;
+    border-bottom: solid rgb(0, 183, 0) 10px;
+    border-radius: 0 0 0 15px;
+}
+.OurBesto2 .head::after,
+.CustomerReview .head::after
+{
+    content: '';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    border-right: solid rgb(0, 183, 0) 10px;
+    border-top: solid rgb(0, 183, 0) 10px;
+    border-radius: 0 15px 0 0;
+}
+
+.OurBesto2 .content{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 100%;
+    display: flex;
+    border-radius: 50px;
+    border: #999 solid 2px ;
+    height: 600px;
+    color: white   ;
+}
+.OurBesto2 .content .containerimg{ 
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.OurBesto2 .content .containerimg img{
+    position: absolute;
+    width: 800px ;
+}
+
+.OurBesto2 .content .text{
+    width: 50%;
+}
+.OurBesto2 .content .text h2 {
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+.OurBesto2 .content .text .p{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 30px 0;
+}
+.OurBesto2 .content .text .footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.OurBesto2 .content .text .footer .oporation{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    font-size: 20px;
+    width: 130px;
+    justify-content: space-between;
+}
+.OurBesto2 .content .text .footer .oporation i {
+    cursor: pointer;
+    transition: 0.1s;
+    
+}
+.OurBesto2 .content .text .footer .oporation i:active  {
+    scale: 1.2;
+    color: green;
+}
+
+
+/* -------------------------------------------------------------------------------------------- */
+/* ------------------------------     Customer Review        --------------------------------------------- */
+
+
+.CustomerReview marquee{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;    
+    
+
+}
+.CustomerReview .card {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 600px;
+    height: 330px;
+    border-radius: 60px ;
+    padding: 50px 30px 30px 30px  ;
+    border: #999 solid 1px;
+    display: inline-block;
+    margin: 0 30px ;
+}
+.CustomerReview .card .main1{
+    display: flex;
+    align-items: center;
+
+}
+.CustomerReview .card .image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px ;
+    object-fit: cover;
+}
+.CustomerReview .card .text p{
+    font-size: 25px ;
+    text-transform: capitalize;
+}
+.CustomerReview .card i{
+    color: gold;
+}
+.CustomerReview marquee .card .p{
+    font-size: 18px ;
+    letter-spacing: 1px ;
+    margin-top: 30px ;
+}
+
+.CustomerReview .card::before{
+    content: '';
+    width: 235px;
+    height: 50px;
+    position: absolute;
+    top: -30.5px;
+    left: 70px ;
+    background-color: rgba(27, 35, 22, 1);
+    border-bottom: #999 solid 1px;
+    rotate: 10deg;
+}
+.CustomerReview .card::after{
+    content: '';
+    width: 235px;
+    height: 50px;
+    position: absolute;
+    top: -30.5px;
+    right:  70px ;
+    background-color: rgba(27, 35, 22, 1);
+    border-bottom: #999 solid 1px;
+    rotate: -10deg;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+/* ------------------------------     Customer Review        --------------------------------------------- */
+
+
+.last {
+    background-color: rgba(255, 255, 255, 0.063);
+    width: 100%;
+    height: 500px;
+    color: white;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.last .part1 {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.last .part1 .logo {
+    display: flex;
+    align-items: center;
+}
+.last .part1 .logo .img-logo {
+    width: 150px;
+    height: 150px;
+}
+.last .part1 .logo p{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.last .part1 .text {
+    transform: translateY(-50px);
+    font-size: 18px;
+    width: 400px;
+    margin: 20px 50px;
+}
+
+.last .part1 .span{
+    margin-left: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px ;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.last .part2 p {
+    margin: 50px 0 ;
+    font-weight: bold;
+
+    font-size: 27px ;
+}
+.last .part2 ul  li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+
+.last .part3 {
+    
+    margin-top: 50px;
+    width: 35%;
+}
+.last .part3 h1{
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+.last .part3 div {
+    width: 90%;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid #999 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.last .part3 div input {
+    width: 100%;
+    background-color: transparent;
+    font-size: 20px;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+.last .part3 div button{
+    padding: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.last .part3 div button:active{
+    scale: 0.95;
+}
+.last .part3  p {
+    font-size: 20px ;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+.test {
+    color: #fff;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    background-color: rgba(255, 255, 255, 0.036);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    width: 500px;
+    border-radius: 20px;
+    border: #999 solid 2px;
+    display: none;
+    flex-direction: column;
+}
+.test div h3 {
+    font-size: 25px;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+.test p {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+.test input{
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    margin: 8px 0 ;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: #999 1px solid;
+    color: #fff;
+}
+.test div {
+    width: 75%;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px ;
+}
+.test div i {
+    border: 1px solid #999;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+::selection{
+    background-color: transparent;
+}
